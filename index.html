@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Image Gallery</h1>
+   <button id="mode-toggle">🌙 Dark Mode</button>
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="nature">Nature</button>
+      <button data-filter="architecture">Architecture</button>
+      <button data-filter="people">People</button>
+    </div>
+  </header>
+
+  <section class="gallery">
+    
+    <div class="gallery-item" data-category="nature">
+      <img src="images/image1.jpg" alt="Nature Image 1" />
+    </div>
+    <div class="gallery-item" data-category="architecture">
+      <img src="images/image9.jpg" alt="Architecture Image 2" />
+    </div>
+    <div class="gallery-item" data-category="people">
+      <img src="images/image6.jpg" alt="People Image 3" />
+    </div>
+
+    <div class="gallery-item" data-category="nature">
+      <img src="images/image13.jpg" alt="Nature Image 4" />
+    </div>
+
+    <div class="gallery-item" data-category="nature">
+      <img src="images/image3.jpg" alt="Nature Image 4" />
+    </div>
+
+     <div class="gallery-item" data-category="people">
+      <img src="images/image10.jpg" alt="People Image 3" />
+    </div>
+    
+    <div class="gallery-item" data-category="architecture">
+      <img src="images/image2.jpg" alt="Architecture Image 5" />
+    </div>
+
+     <div class="gallery-item" data-category="people">
+      <img src="images/image11.jpg" alt="People Image 3" />
+    </div>
+    
+    <div class="gallery-item" data-category="nature">
+      <img src="images/image4.jpg" alt="Nature Image 4" />
+    </div>
+    
+    <div class="gallery-item" data-category="architecture">
+      <img src="images/image15.jpg" alt="Architecture Image 5" />
+    </div>
+    
+  </section>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" src="" alt="" />
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
