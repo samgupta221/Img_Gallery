@@ -1,6 +1,6 @@
 # 📸 Responsive Image Gallery
 
-A modern and responsive **Image Gallery website** built using **HTML, CSS, and JavaScript**. The project allows users to browse images by category, open images in a full-screen lightbox, navigate between images, and switch between light and dark themes. Readme
+A modern and responsive **Image Gallery website** built using **HTML, CSS, and JavaScript**. The project allows users to browse images by category, open images in a full-screen lightbox, navigate between images, and switch between light and dark themes. 
 
 ## ✨ Features
 
@@ -15,14 +15,14 @@ A modern and responsive **Image Gallery website** built using **HTML, CSS, and J
 - **Theme Persistence** – The selected theme is saved using `localStorage`, so it remains after refreshing the page.
 - **Responsive Design** – Works smoothly on desktop, tablet, and mobile devices.
 - **Image Hover Effect** – Images smoothly zoom when the user hovers over them.
-- **Smooth Animations** – Includes transitions and lightbox fade-in effects. Readme
+- **Smooth Animations** – Includes transitions and lightbox fade-in effects. 
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – Used to create the structure of the gallery, filters, buttons, and lightbox. index
-- **CSS3** – Used for styling, responsive layouts, hover effects, animations, lightbox design, and themes. style
-- **JavaScript (ES6)** – Used for category filtering, lightbox functionality, image navigation, and theme management. script
-- **LocalStorage** – Used to remember the user's selected light/dark theme. script
+- **HTML5** – Used to create the structure of the gallery, filters, buttons, and lightbox.
+- **CSS3** – Used for styling, responsive layouts, hover effects, animations, lightbox design, and themes. 
+- **JavaScript (ES6)** – Used for category filtering, lightbox functionality, image navigation, and theme management.
+- **LocalStorage** – Used to remember the user's selected light/dark theme. 
 
 ## 📁 Project Structure
 
@@ -46,7 +46,7 @@ Image-Gallery/
     └── image15.jpg
 ```
 
-The HTML assigns each image to a category such as `nature`, `architecture`, or `people`, which is then used by JavaScript for filtering. index
+The HTML assigns each image to a category such as `nature`, `architecture`, or `people`, which is then used by JavaScript for filtering. 
 
 ## 🚀 How to Run
 
@@ -64,33 +64,18 @@ No backend or database is required.
 
 ### Category Filtering
 
-When a category button is clicked, JavaScript checks each gallery item's `data-category` attribute and displays only matching images. script
+When a category button is clicked, JavaScript checks each gallery item's `data-category` attribute and displays only matching images. 
 
 ### Lightbox
 
-Clicking an image opens the selected image in a full-screen lightbox. The JavaScript dynamically updates the lightbox image source and provides Previous/Next navigation. script
+Clicking an image opens the selected image in a full-screen lightbox. The JavaScript dynamically updates the lightbox image source and provides Previous/Next navigation. 
 
 ### Dark Mode
 
-The theme toggle adds or removes the `dark` class from the `<body>`. The selected theme is stored in `localStorage`, allowing the preference to remain after refreshing the page. script
+The theme toggle adds or removes the `dark` class from the `<body>`. The selected theme is stored in `localStorage`, allowing the preference to remain after refreshing the page. 
 
 ### Responsive Layout
 
-The gallery uses CSS Grid with responsive columns, allowing the layout to automatically adjust according to screen size. style
-
-## 🎯 Learning Outcomes
-
-Through this project, I learned how to:
-
-- Build a responsive website using HTML and CSS.
-- Create dynamic UI interactions using JavaScript.
-- Implement category-based filtering.
-- Build a functional image lightbox.
-- Implement Previous/Next image navigation.
-- Use `localStorage` for persistent user preferences.
-- Apply responsive CSS Grid layouts.
-- Add animations and interactive hover effects.
-  
+The gallery uses CSS Grid with responsive columns, allowing the layout to automatically adjust according to screen size. 
 
 
-This project is created for **educational and portfolio purposes**.
